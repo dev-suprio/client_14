@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/6fac2730d4.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <form>
+            <h2 class="tect-center">BEGIN MOVING QUOTE</h2>
+            <label for="question"><span class="required">* </span>Do you require packing services prior to the
+                move?</label>
+            <div class="select-box">
+                <div class="options-container options-container1">
+
+                    <div class="option option1">
+                        <input type="radio" class="radio" id="question1" name="category" />
+                        <label for="question1">No, everything will be ready to move</label>
+                    </div>
+
+                    <div class="option option1">
+                        <input type="radio" class="radio" id="question2" name="category" />
+                        <label for="question2">Yes I need help packing. I DO need boxes or packing supplies</label>
+                    </div>
+
+                    <div class="option option1">
+                        <input type="radio" class="radio" id="question3" name="category" />
+                        <label for="question3">Yes I need help packing. I DO NOT need boxes or packing supplies</label>
+                    </div>
+                </div>
+
+                <div class="selected selected1">
+                    Select
+                </div>
+            </div>
+
+            <p class="quote_text">
+                increments anytime after that. Long Distance moves are subject to a one-time fuel charge. Specialty and
+                heavy weight items are
+                subject to additional charges. Please call to inquire.
+            </p>
+            <div class="section">
+                <div class="left-section">
+                    <label for="calendar" required>Calendar</label>
+                    <input type="date" id="calendar" name="calendar">
+                </div>
+                <div class="right-section">
+                    <label for="time">Time</label>
+                    <div class="select-box">
+                        <div class="options-container2 options-container">
+
+                            <div class="option2 option">
+                                <input type="radio" class="radio" id="time1" name="category" />
+                                <label for="time1">8:00AM-12:00PM</label>
+                            </div>
+
+                            <div class="option2 option">
+                                <input type="radio" class="radio" id="time2" name="category" />
+                                <label for="time2">8:30AM-12:30PM</label>
+                            </div>
+
+                            <div class="option2 option">
+                                <input type="radio" class="radio" id="time3" name="category" />
+                                <label for="time3">9:00AM-1:00PM</label>
+                            </div>
+
+                            <div class="option2 option">
+                                <input type="radio" class="radio" id="time4" name="category" />
+                                <label for="time4">9:30AM-1:30PM</label>
+                            </div>
+
+                            <div class="option2 option">
+                                <input type="radio" class="radio" id="time5" name="category" />
+                                <label for="time5">10:00AM - 2:00PM</label>
+                            </div>
+
+                            <div class="option2 option">
+                                <input type="radio" class="radio" id="time6" name="category" />
+                                <label for="time6">10:30AM - 2:30PM</label>
+                            </div>
+
+                            <div class="option2 option">
+                                <input type="radio" class="radio" id="time7" name="category" />
+                                <label for="time7">11:00AM-3:00PM</label>
+                            </div>
+
+                            <div class="option2 option">
+                                <input type="radio" class="radio" id="time8" name="category" />
+                                <label for="time8">11:30AM-3:30PM</label>
+                            </div>
+                        </div>
+
+                        <div class="selected2 selected">
+                            Select Time
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <h2 class="tect-center">Customer Details</h2>
+            <p></p>
+
+            <div class="section">
+                <div class="left-section">
+                    <label for="firstName"><span class="required">* </span>First Name</label>
+                    <input type="text" id="firstName" name="firstName">
+                </div>
+                <div class="right-section">
+                    <label for="lastName"><span class="required">* </span>Last Name</label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+            </div>
+
+
+            <label for="phone"><span class="required">* </span>Phone</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label for="email"><span class="required">* </span>Email</label>
+            <input type="email" id="email" name="email">
+
+
+            <!-- Address Details - Moving From Start -->
+            <p class="add_de">Address Details - Moving From</p>
+
+            <div class="section">
+                <div class="left-section">
+                    <label for="streetAddress"><span class="required">* </span>Street Address (with unit number)</label>
+                    <input type="text" id="streetAddress" name="streetAddress">
+                </div>
+                <div class="right-section">
+                    <label for="city"><span class="required">* </span>City</label>
+                    <input type="text" id="city" name="city">
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="left-section">
+                    <label for="province"><span class="required">* </span>Province</label>
+                    <input type="text" id="province" name="province">
+                </div>
+                <div class="right-section">
+                    <label for="postal-code">Postal Code</label>
+                    <input type="text" id="postal-code" name="postal-code">
+                </div>
+            </div>
+
+            <label for="text-area"><span class="required">* </span>Please provide any additional drop off addresses.
+                Please include City, Postal Code, and Unit (if applicable).</label>
+            <textarea class="responsive-textarea" name="message"></textarea>
+            <br>
+            <br>
+            <div class="section">
+                <div class="left-section">
+                    <label for="move-out">MOVING OUT</label>
+                    <div class="select-box">
+                        <div class="options-container3 options-container">
+
+                            <div class="option3 option">
+                                <input type="radio" class="radio" id="move-out1" name="category" />
+                                <label for="move-out1">From Apartment</label>
+                            </div>
+
+                            <div class="option3 option">
+                                <input type="radio" class="radio" id="move-out2" name="category" />
+                                <label for="move-out2">From Townhouse</label>
+                            </div>
+
+                            <div class="option3 option">
+                                <input type="radio" class="radio" id="move-out3" name="category" />
+                                <label for="move-out3">From House</label>
+                            </div>
+
+                            <div class="option3 option">
+                                <input type="radio" class="radio" id="move-out4" name="category" />
+                                <label for="move-out4">From Storage</label>
+                            </div>
+
+                            <div class="option3 option">
+                                <input type="radio" class="radio" id="move-out5" name="category" />
+                                <label for="move-out5">Other</label>
+                            </div>
+                        </div>
+
+                        <div class="selected3 selected">
+                            Select
+                        </div>
+                    </div>
+                </div>
+                <div class="right-section">
+                    <label for="bedrooms">NUMBER OF BEDROOMS</label>
+                    <div class="select-box">
+                        <div class="options-container4 options-container">
+
+                            <div class="option4 option">
+                                <input type="radio" class="radio" id="bedrooms1" name="category" />
+                                <label for="bedrooms1">Room or Less</label>
+                            </div>
+
+                            <div class="option4 option">
+                                <input type="radio" class="radio" id="bedrooms2" name="category" />
+                                <label for="bedrooms2">Studio</label>
+                            </div>
+
+                            <div class="option4 option">
+                                <input type="radio" class="radio" id="bedrooms3" name="category" />
+                                <label for="bedrooms3">1 Bedroom</label>
+                            </div>
+
+                            <div class="option4 option">
+                                <input type="radio" class="radio" id="bedrooms4" name="category" />
+                                <label for="bedrooms4">2 Bedroom</label>
+                            </div>
+
+                            <div class="option4 option">
+                                <input type="radio" class="radio" id="bedrooms5" name="category" />
+                                <label for="bedrooms5">3 Bedroom</label>
+                            </div>
+
+                            <div class="option4 option">
+                                <input type="radio" class="radio" id="bedrooms6" name="category" />
+                                <label for="bedrooms6">4 Bedroom</label>
+                            </div>
+
+                            <div class="option4 option">
+                                <input type="radio" class="radio" id="bedrooms7" name="category" />
+                                <label for="bedrooms7">5 Bedroom or More</label>
+                            </div>
+                        </div>
+
+                        <div class="selected4 selected">
+                            Select
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Address Details - Moving From End -->
+
+            <!-- Address Details - Moving To Start -->
+            <p class="add_de">Address Details - Moving To</p>
+
+            <div class="section">
+                <div class="left-section">
+                    <label for="streetAddress"><span class="required">* </span>Street Address (with unit number)</label>
+                    <input type="text" id="streetAddress" name="streetAddress">
+                </div>
+                <div class="right-section">
+                    <label for="city"><span class="required">* </span>City</label>
+                    <input type="text" id="city" name="city">
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="left-section">
+                    <label for="province"><span class="required">* </span>Province</label>
+                    <input type="text" id="province" name="province">
+                </div>
+                <div class="right-section">
+                    <label for="postal-code">Postal Code</label>
+                    <input type="text" id="postal-code" name="postal-code">
+                </div>
+            </div>
+
+            <label for="text-area"><span class="required">* </span>Please provide any additional drop off addresses.
+                Please include City, Postal Code, and Unit (if applicable).</label>
+            <textarea class="responsive-textarea" name="message"></textarea>
+            <br>
+            <br>
+            <div class="section">
+                <div class="left-section">
+                    <label for="move-out">MOVING IN</label>
+                    <div class="select-box">
+                        <div class="options-container5 options-container">
+
+                            <div class="option5 option">
+                                <input type="radio" class="radio" id="move-in1" name="category" />
+                                <label for="move-in1">To Apartment</label>
+                            </div>
+
+                            <div class="option5 option">
+                                <input type="radio" class="radio" id="move-in2" name="category" />
+                                <label for="move-in2">To Townhouse</label>
+                            </div>
+
+                            <div class="option5 option">
+                                <input type="radio" class="radio" id="move-in3" name="category" />
+                                <label for="move-in3">To House</label>
+                            </div>
+
+                            <div class="option5 option">
+                                <input type="radio" class="radio" id="move-in4" name="category" />
+                                <label for="move-in4">To Storage</label>
+                            </div>
+
+                            <div class="option5 option">
+                                <input type="radio" class="radio" id="move-in5" name="category" />
+                                <label for="move-in5">Other</label>
+                            </div>
+                        </div>
+
+                        <div class="selected5 selected">
+                            Select
+                        </div>
+                    </div>
+                </div>
+                <div class="right-section">
+                    <label for="bedrooms">NUMBER OF BEDROOMS</label>
+                    <div class="select-box">
+                        <div class="options-container6 options-container">
+
+                            <div class="option6 option">
+                                <input type="radio" class="radio" id="in-bedrooms1" name="category" />
+                                <label for="in-bedrooms1">Room or Less</label>
+                            </div>
+
+                            <div class="option6 option">
+                                <input type="radio" class="radio" id="in-bedrooms2" name="category" />
+                                <label for="in-bedrooms2">Studio</label>
+                            </div>
+
+                            <div class="option6 option">
+                                <input type="radio" class="radio" id="in-bedrooms3" name="category" />
+                                <label for="in-bedrooms3">1 Bedroom</label>
+                            </div>
+
+                            <div class="option6 option">
+                                <input type="radio" class="radio" id="in-bedrooms4" name="category" />
+                                <label for="in-bedrooms4">2 Bedroom</label>
+                            </div>
+
+                            <div class="option6 option">
+                                <input type="radio" class="radio" id="in-bedrooms5" name="category" />
+                                <label for="in-bedrooms5">3 Bedroom</label>
+                            </div>
+
+                            <div class="option6 option">
+                                <input type="radio" class="radio" id="in-bedrooms6" name="category" />
+                                <label for="in-bedrooms6">4 Bedroom</label>
+                            </div>
+
+                            <div class="option6 option">
+                                <input type="radio" class="radio" id="in-bedrooms7" name="category" />
+                                <label for="in-bedrooms7">5 Bedroom or More</label>
+                            </div>
+                        </div>
+
+                        <div class="selected6 selected">
+                            Select
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Address Details - Moving To End -->
+
+            <!-- Chekbox & Radio Start -->
+            <div class="section">
+                <div class="left-section">
+                    <label for="text-area"><span class="required">* </span>Select if you move any of these special items</label>
+                    <div>
+                        <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox">
+                        <label for="checkbox-1" class="checkbox-custom-label">Piano upright</label>
+                    </div>
+                    <div>
+                        <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
+                        <label for="checkbox-2" class="checkbox-custom-label">Piano grand</label>
+                    </div>
+                    <div>
+                        <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
+                        <label for="checkbox-3"class="checkbox-custom-label">Electric bed</label>    
+                    </div>
+                    <div>
+                        <input id="checkbox-4" class="checkbox-custom" name="checkbox-4" type="checkbox">
+                        <label for="checkbox-4"class="checkbox-custom-label">Marble table</label>    
+                    </div>
+                    <div>
+                        <input id="checkbox-5" class="checkbox-custom" name="checkbox-5" type="checkbox">
+                        <label for="checkbox-5"class="checkbox-custom-label">Grandfather clock</label>    
+                    </div>
+                    <div>
+                        <input id="checkbox-6" class="checkbox-custom" name="checkbox-6" type="checkbox">
+                        <label for="checkbox-6"class="checkbox-custom-label">Safe</label>    
+                    </div>
+                    <div>
+                        <input id="checkbox-7" class="checkbox-custom" name="checkbox-7" type="checkbox">
+                        <label for="checkbox-7"class="checkbox-custom-label">Gun safe</label>    
+                    </div>
+                    <div>
+                        <input id="checkbox-8" class="checkbox-custom" name="checkbox-8" type="checkbox">
+                        <label for="checkbox-8"class="checkbox-custom-label">Swing</label>    
+                    </div>
+                </div>
+                <div class="right-section">
+                    <label for="city"><span class="required">* </span>Roughly how many boxes are you moving?</label>
+                    <div>
+                        <input id="radio-1" class="radio-custom" name="radio-group" type="radio">
+                        <label for="radio-1" class="radio-custom-label">0</label>
+                    </div>
+                    <div>
+                        <input id="radio-2" class="radio-custom"name="radio-group" type="radio">
+                        <label for="radio-2" class="radio-custom-label">1 - 20</label>
+                    </div>
+                    <div>
+                        <input id="radio-3" class="radio-custom" name="radio-group" type="radio">
+                        <label for="radio-3" class="radio-custom-label">20 - 50</label>
+                    </div>
+                    <div>
+                        <input id="radio-4" class="radio-custom" name="radio-group" type="radio">
+                        <label for="radio-4" class="radio-custom-label">50 - 100</label>
+                    </div>
+                    <div>
+                        <input id="radio-5" class="radio-custom" name="radio-group" type="radio">
+                        <label for="radio-5" class="radio-custom-label">100 and more</label>
+                    </div>
+                </div>
+            </div>
+            <!-- Chekbox & Radio Start -->
+
+            <!-- Truck Select Start -->
+            <label for="text-area"><span class="required">* </span>What size of truck do you need?</label>
+            <span class="required">(Please select the size of truck you require)</span>
+
+            <div>
+                <input id="radio-6" class="radio-custom1" name="radio-group" type="radio">
+                <label for="radio-6" class="radio-custom-label1">
+                    <span class="radio-img"><img src="/img/truck.jpg" class="truck-img" alt="" srcset=""></span>
+                    Small truck 16ft (0-1 bedrooms)
+                    <br>
+                    2 movers recommended
+                </label>
+            </div>
+            <div>
+                <input id="radio-7" class="radio-custom1"name="radio-group" type="radio">
+                <label for="radio-7" class="radio-custom-label1">
+                    <span class="radio-img"><img src="/img/truck1.jpg" class="truck-img" alt="" srcset=""></span>
+                    Medium truck 20ft (1-2 bedrooms)
+                    <br>
+                    2 movers recommended
+                </label>
+            </div>
+            <div>
+                <input id="radio-8" class="radio-custom1" name="radio-group" type="radio">
+                <label for="radio-8" class="radio-custom-label1">
+                    <span class="radio-img"><img src="/img/truck2.jpg" class="truck-img" alt="" srcset=""></span>
+                    Large truck 24ft (2-3 bedrooms)
+                    <br>
+                    3 movers recommended
+                </label>
+            </div>
+            <div>
+                <input id="radio-9" class="radio-custom1" name="radio-group" type="radio">
+                <label for="radio-9" class="radio-custom-label1">
+                    <span class="radio-img"><img src="/img/truck3.jpg" class="truck-img" alt="" srcset=""></span>
+                    Extra Large truck 26ft (3-5 bedrooms)
+                    <br>
+                    3+ movers recommended
+                </label>
+            </div>
+            <!-- Truck Select Start -->
+            <!-- Center Button Start -->
+            <!-- <div class="center">
+                <button type="center">Submit</button>
+            </div> -->
+            <!-- Center Button End -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
